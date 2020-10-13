@@ -1,11 +1,9 @@
-# Docker image for doing inference on vision models trained with fastai
+# Identification of Jazz Instruments
 
-This repo is an adaptation of https://github.com/gdoteof/fastai-vision-uvicorn-gunicorn-starlette-docker. I tried his default code and the Dockerfile is a bit old on fast.ai version so I updated it. Also added Semantic UI for better UI on the webapp part. 
+This application is desgined using FastAI and is hosted on a Docker image. 
 
-This docker image is a wrapper around https://github.com/tiangolo/uvicorn-gunicorn-starlette-docker, adding the dependencies to run fastai models, as well as a minimal "webapp" to make requests.
+Run on the browser, the application takes in an image as input and identifies the type of Jazz Instrument it is. The application uses a machine learning FastAI model (RESNET34) to determine the type of instrument it is. The docker instructions were used from 
 
-Known Problems:
- - Fastai vision models are not necessarily compatible version to version (TODO: tags for each fastai version)
 
 ## Installation
 
