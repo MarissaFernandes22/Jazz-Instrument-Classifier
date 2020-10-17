@@ -1,4 +1,4 @@
-# Identification of Jazz Instruments
+### Identification of Jazz Instruments
 
 This application is desgined using FastAI and is hosted on a Docker image using Starlette. 
 
